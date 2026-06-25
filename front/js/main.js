@@ -8,7 +8,7 @@ productos.forEach(producto  => {
      <img class=card-img" src="${producto.img}" alt="">
      <h2 class=card-h2">${producto.nombre}</h2>
      <p class=card-p">${producto.precio}</p>
-     <button class="comprar" onclick="verdetalle(${producto.id})">comprar</button>
+     <button class="comprar" onClick="verDetalle(${producto.id})">comprar</button>
     </div>
     `
 } )
